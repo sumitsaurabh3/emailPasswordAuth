@@ -1,3 +1,4 @@
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 
 class Dashboard extends StatefulWidget {
@@ -13,7 +14,7 @@ class _DashboardState extends State<Dashboard> {
     return Center(
       child: Container(
         child: Text(
-          "Dashboard",
+          'Dashboard',
           style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),
         ),
       ),
